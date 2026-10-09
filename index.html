@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="titulos">
+            <h1>Crie e compartilhe seu evento.</h1>
+            <h3>O primeiro passo, é preencher esse formulário de inscrição.</h3>
+        </div>
+    </header>
+    <form class="formulario">
+        <h2>Informações do Evento</h2>
+        <hr>
+        <label>Título do evento<span>(mínimo 8 caracteres)</span></label>
+        <input class="input" type="" name="tevento">
+
+        <label>Link do evento<span>(comece com https://)</span></label>
+        <input class="input" type="" name="link">
+
+        <label>Whatsapp para contato<span>(somente números)</span></label>
+        <input class="input" type="" name="zapzap">
+
+        <label>Informações Extras</label>
+        <textarea class="extra">  </textarea>  
+
+        <label>Categoria</label>
+        <select required class="cate">
+                <option value="categoria">Tipo de evento</option>
+                <option>Festa</option>
+                <option>Enterro</option>
+                <option>Despedida</option>
+                <option>Formatura</option>
+        </select>
+
+        <h2>Privacidade</h2>
+        <hr>
+        <label>E-mail do administrador<span>(digite um email válido)</span></label>
+        <input class="input" type="" name="tevento">
+
+        <label>Senha de acesso para os participantes<span>(mínimo 8 caracteres)</span></label>
+        <input class="input" type="" name="link">
+
+        <label>
+            <input class="privacy" type="checkbox" name="adicionais" value="bacon">
+            Evento Privado
+        </label>
+
+        <h2>Dia e hora</h2>
+        <hr>
+
+        <table class="horario">
+            <tr>
+                <td class="datas">
+                    Data
+                    <input class="data">
+                </td>
+
+                <td class="dass">
+                    Das
+                    <input class="das" placeholder="       19:00">
+                </td>
+
+                <td class="atte">
+                    Até
+                    <input type="text" class="ate" placeholder="       20:00">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+    <form class="finalizar">
+        <button><strong>Salvar evento</strong></button>
+    </form>
+
+
+    </form>
+
+</body>
+</html>
